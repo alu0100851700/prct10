@@ -1,5 +1,5 @@
 module BiblioGem
-	class ADABibliography < Bibliography
+	class APABibliography < Bibliography
 	    attr_accessor :nombres, :apellidos, :tipo, :lugar
 	    
 	    def initialize(args)

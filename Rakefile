@@ -11,5 +11,5 @@ task :spec do
   sh "bundle exec rspec spec/ebook_spec.rb"
   sh "bundle exec rspec spec/magazine_spec.rb"
   sh "bundle exec rspec spec/magazine_spec.rb"
-  sh "bundle exec rspec spec/adabibliography_spec.rb"
+  sh "bundle exec rspec spec/apabibliography_spec.rb"
 end
