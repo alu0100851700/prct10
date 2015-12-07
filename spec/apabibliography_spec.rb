@@ -32,7 +32,7 @@ describe BiblioGem::APABibliography do
     
     it "La referencia debe salir formateada correctamente" do
         expect(@bib1.to_s).to eq "Libro\nApellido1, Nombre1. Apellido2, Nombre2. Apellido3, Nombre3. Titulo. Fecha. Lugar1.\nISBN"
-        expect(@bib2.to_s).to eq "Libro\nApellido, Nombre. Titulo. Fecha. Lugar2.\nISBN"
+        expect(@bib2.to_s).to eq "Articulo\nApellido, Nombre. Titulo. Fecha. Lugar2.\nISBN"
     end
    end
 end
