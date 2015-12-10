@@ -9,7 +9,6 @@ module BiblioGem
 	        @lugar = args[:lugar]
 	        super(args)
 	    end
-	    
 	    def to_s
 	    	salida = ""
 	    	#Añadir tipo de libro
@@ -22,7 +21,7 @@ module BiblioGem
 			while i < num
 			   salida << @apellidos[i].capitalize + ", " + @nombres[i].capitalize + ". "
 			   i +=1;
-			end
+			end 
 			
 			#Añadir titulo
 			salida << @titulo + ". "

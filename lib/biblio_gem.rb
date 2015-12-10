@@ -6,6 +6,7 @@ require "biblio_gem/book"
 require "biblio_gem/ebook"
 require "biblio_gem/magazine"
 require "biblio_gem/apabibliography"
+require "biblio_gem/apalist"
 
 module BiblioGem
   # Your code goes here...
