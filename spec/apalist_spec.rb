@@ -17,7 +17,6 @@ describe BiblioGem::APAList do
             expect(@l.pull).to be @apa3
             expect(@l.pull).to be @apa4
             expect(@l.pull).to be @apa1
-            
         end
    end
 end
