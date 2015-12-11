@@ -18,7 +18,7 @@ module BiblioGem
 	    
 	    def to_s
 	    	self.each do |value|
-	    		value.to_s
+	    		value.to_s + "\n"
 	    	end
 	    end
 		

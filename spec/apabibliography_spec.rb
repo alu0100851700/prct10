@@ -5,7 +5,7 @@ require 'biblio_gem'
 describe BiblioGem::APABibliography do
 
     describe "Almacenamiento de datos (1 autor):" do
-        before :each do
+        before :each do 
             @bib1 = BiblioGem::APABibliography.new(tipo: "Libro", nombres: ["Nombre1","Nombre2", "Nombre3"], apellidos: ["Apellido1", "Apellido2", "Apellido3"], titulo: "Titulo", fecha: "Fecha", lugar: "Lugar1", isbn: "ISBN")
             @bib2 = BiblioGem::APABibliography.new(tipo: "Articulo",nombres: ["Nombre"], apellidos: ["Apellido"], titulo: "Titulo", fecha: "Fecha", lugar: "Lugar2", isbn: "ISBN")
         end
